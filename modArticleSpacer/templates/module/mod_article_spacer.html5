@@ -1,0 +1,9 @@
+<?php if($this->spacerDirection == 'top' || $this->spacerDirection == 'both'): ?>
+    <hr class="mod_article_spacer top">
+<?php endif; ?>
+
+<?php echo $this->ogArticle; ?>
+
+<?php if($this->spacerDirection == 'bottom' || $this->spacerDirection == 'both'): ?>
+    <hr class="mod_article_spacer bottom">
+<?php endif; ?>
